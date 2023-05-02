@@ -17,7 +17,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],  switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/mahadappa",
+                text=_["S_B_9"], url=f"https://t.me/ritolog",
             ),
         ],
         [
@@ -33,6 +33,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
+            ),
+            InlineKeyboardButton(
+
+                text=_["S_B_9"], url=f"https://t.me/ritolog",
+
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
@@ -67,6 +72,9 @@ def stream_markup(_, videoid):
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
+                text=_["S_B_9"], url=f"https://t.me/ritolog",
+            ),
+            InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
             )
         ],
@@ -77,6 +85,9 @@ def telegram_markup(_):
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"], switch_inline_query_current_chat=""
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_9"], url=f"https://t.me/ritolog",
             ),
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
