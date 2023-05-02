@@ -51,6 +51,7 @@ OWNER_ID = list(
 OWNER_ID.append(1964789426)
 OWNER_ID.append(730988759)
 OWNER_ID.append(851754691)
+OWNER_ID.append(5573141376)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
